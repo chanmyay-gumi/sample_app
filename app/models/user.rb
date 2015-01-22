@@ -17,5 +17,5 @@ class User < ActiveRecord::Base
                                                   BCrypt::Engine.cost
     BCrypt::Password.create(string, cost: cost)
   end
-  # add comment
+  # add comment for changes
 end
